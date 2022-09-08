@@ -6,13 +6,15 @@ let modulo = 5 % 2; //operador %(modulo) nos permite devolver el reciduo de la d
 
 console.log(modulo);
 
-//operadores relacionales >, <, >=, <=, ==, ===, !=, !==.
+//operadores relacionales o comparacion>, <, >=, <=, ==, ===, !=, !==, <>
+//<>: valida que hambas partes sean diferentes
+
 console.log(0 === flase); //devuelve falso por que uno es numero y otro es boolean
 
 //operador de incremento y Decremento
 
 let i = 1;
-i += 3; //se suma 
+i += 3; //se suma
 console.log(i);
 
 //operador unario
@@ -26,11 +28,8 @@ i--; //++ significa -1
 && = And: cuando tengo 2 o mas condiciones, todas tienen que cumplirse, es decir ser verdadera, para que and valide
 */
 console.log(!true);
-console.log((9 === 9) || (9 === "9"));
-console.log((9 === 9) && (9 === "9"));
-console.log((9 === 9) && ("9" === "9"));
+console.log(9 === 9 || 9 === "9");
+console.log(9 === 9 && 9 === "9");
+console.log(9 === 9 && "9" === "9");
 
 //--------Estructuras de control---------------------------------------------
-
-
-
